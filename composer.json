@@ -1,0 +1,37 @@
+{
+  "name": "skillexteam/forumtheme",
+  "description": "A stunning theme for SkilleX Forum",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "authors": [
+    {
+      "name": "SkilleX Team",
+      "email": "skillexchangelk@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SkilleXTeam\\ForumTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Forum Theme",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
